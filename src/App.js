@@ -1,11 +1,17 @@
 import './App.css';
+import About from './Components/About';
 import Navbar from './Components/Navbar';
-import TextUtilities from './Components/TextUtilities';
+import TextForm from './Components/TextForm';
 function App() {
   return (
     <>
-      <Navbar title="First App" home="Home"/>
-      <TextUtilities/>
+    <div>
+      Hi Sanu !
+      I love you So Much.
+    </div>
+      {/* <Navbar title="First App" home="Home"/>
+      <TextForm/>
+      <About/> */}
     </>
   );
 }
